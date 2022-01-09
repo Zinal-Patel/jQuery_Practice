@@ -1,0 +1,27 @@
+.panel{
+    display: none;
+    padding: 2rem;
+}
+
+.panel.active{
+    display: block;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block; 
+    padding: 0.5rem 1rem;  
+    background-color: rgb(202, 200, 200);
+    border-radius: 0.8rem 0.8rem 0 0;  
+}
+
+li:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+li.active{
+    background-color: gray;
+
+}
